@@ -1,0 +1,23 @@
+body {
+  background-color: #ffe6d0;
+  @media screen and (max-width: 767px) {
+    padding: 0 15px;
+  }
+}
+.App {
+  text-align: center;
+  padding-top: 100px;
+}
+input,button {
+  border: 3px solid #ffffff;
+  background-color: #489260e0;
+  color: #ffffff;
+  padding: 15px 10px;
+}
+button {
+  border: 3px solid #ffffff;
+  background-color: transparent;
+  color: #0787af;
+  padding: 15px 10px;
+  cursor: pointer;
+}

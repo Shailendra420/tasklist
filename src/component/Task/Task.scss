@@ -1,0 +1,40 @@
+.task-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input-block {
+    display: flex;
+    margin-bottom: 10px;
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+    }
+    &__search {
+        @media screen and (max-width: 767px) {
+            margin-bottom: 10px;
+        }
+    }
+    &__add-task-wrap {
+    }
+    &__add-task-input {
+        
+    }
+    &__add-task-btn {
+    }
+}
+
+.task-block {
+    display: flex;
+    margin-bottom: 10px;
+    &__task-input {
+        font-weight: 700;
+        font-size: 15px;
+    }
+    &__done-btn {
+
+    }
+    &__cancel-btn {
+
+    }
+}
