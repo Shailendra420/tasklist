@@ -66,3 +66,17 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## App Description
+
+This app has only one component named Task in src/component folder. Executing the npm start command from the shell will run the app. 
+
+Once the page opens, on the top we have search task input filter which will filter tasks and beside search task input box is our Add Task input box with a +(Add button) stuck besides it and it will add new tasks just below.
+
+Now the tasks could be edited, marked as completed and deleted completely.
+
+By clicking on any task we can edit the task and then pressing Enter button after we are done editing.
+
+By clicking on the tick button just beside the tasks we can mark the task as complete by just adding a line-through over the task text.
+
+By clicking the cancel button we can delete that task completely.
